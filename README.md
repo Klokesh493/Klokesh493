@@ -4,7 +4,7 @@
 
 Building reliable cloud platforms, automated delivery pipelines, secure software supply chains, and production-ready systems with a focus on SRE, DevOps, DevSecOps, CI/CD, infrastructure automation, monitoring, and AI-assisted operations.
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/kalluru-lokesh-87a828375)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lokesh-reddy-65442118b/)
 [![Email](https://img.shields.io/badge/EMAIL-CONTACT-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:klokesh493@gmail.com)
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW%20WORK-111827?style=for-the-badge&logo=githubpages&logoColor=white)](https://klokesh493.github.io/lokesh-kalluru-portfolio/)
 
@@ -178,7 +178,7 @@ Key skills: Prometheus, SLOs, burn rates, incident response, FastAPI, Terraform
 
 ## Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/kalluru-lokesh-87a828375)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lokesh-reddy-65442118b/)
 [![Email](https://img.shields.io/badge/EMAIL-CONTACT-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:klokesh493@gmail.com)
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW%20WORK-111827?style=for-the-badge&logo=githubpages&logoColor=white)](https://klokesh493.github.io/lokesh-kalluru-portfolio/)
 
