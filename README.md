@@ -1,12 +1,16 @@
-# Lokesh Reddy
+<h1 align="center">Lokesh Reddy</h1>
 
-### Senior Site Reliability Engineer | DevOps | DevSecOps | Platform Engineering | AI Automation
+<h3 align="center">Senior Site Reliability Engineer | DevOps | DevSecOps | Platform Engineering | AI Automation</h3>
 
-Building reliable cloud platforms, automated delivery pipelines, secure release systems, and production-ready operations with a focus on SRE, DevOps, CI/CD, Kubernetes, Terraform, monitoring, and AI-assisted workflows.
+<p align="center">
+  Building reliable cloud platforms, automated delivery pipelines, secure release systems, and production-ready operations with a focus on SRE, DevOps, CI/CD, Kubernetes, Terraform, monitoring, and AI-assisted workflows.
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-5B5B5B?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lokesh-reddy-65442118b/)
-[![Email](https://img.shields.io/badge/EMAIL-CONTACT-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:klokesh493@gmail.com)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW_WORK-111827?style=for-the-badge&logo=githubpages&logoColor=white)](https://klokesh493.github.io/lokesh-kalluru-portfolio/)
+<p align="center">
+  <a href="https://www.linkedin.com/in/lokesh-reddy-65442118b/"><img src="https://img.shields.io/badge/LINKEDIN-5B5B5B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"><img src="https://img.shields.io/badge/CONNECT-0A66C2?style=for-the-badge&logoColor=white" alt="Connect"></a>
+  <a href="mailto:klokesh493@gmail.com"><img src="https://img.shields.io/badge/EMAIL-5B5B5B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"><img src="https://img.shields.io/badge/CONTACT-D14836?style=for-the-badge&logoColor=white" alt="Contact"></a>
+  <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-5B5B5B?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"><img src="https://img.shields.io/badge/VIEW_WORK-111827?style=for-the-badge&logoColor=white" alt="View Work"></a>
+</p>
 
 ---
 
@@ -72,6 +76,12 @@ I enjoy building automation that reduces manual work, improves reliability, stre
 ![Trivy](https://img.shields.io/badge/TRIVY-1904DA?style=for-the-badge)
 ![Checkov](https://img.shields.io/badge/CHECKOV-2D3748?style=for-the-badge)
 ![Policy as Code](https://img.shields.io/badge/POLICY_AS_CODE-374151?style=for-the-badge)
+
+### Enterprise Application Development
+
+![Pega](https://img.shields.io/badge/PEGA-1F2937?style=for-the-badge)
+![REST APIs](https://img.shields.io/badge/REST_APIS-02569B?style=for-the-badge)
+![Workflow Automation](https://img.shields.io/badge/WORKFLOW_AUTOMATION-374151?style=for-the-badge)
 
 ---
 
@@ -166,11 +176,11 @@ Key skills: Python, CLI tooling, automation, testing, documentation, production 
 
 ## Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-5B5B5B?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lokesh-reddy-65442118b/)
+<a href="https://www.linkedin.com/in/lokesh-reddy-65442118b/"><img src="https://img.shields.io/badge/LINKEDIN-5B5B5B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"><img src="https://img.shields.io/badge/CONNECT-0A66C2?style=for-the-badge&logoColor=white" alt="Connect"></a>
 
-[![Email](https://img.shields.io/badge/EMAIL-CONTACT_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:klokesh493@gmail.com)
+<a href="mailto:klokesh493@gmail.com"><img src="https://img.shields.io/badge/EMAIL-5B5B5B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"><img src="https://img.shields.io/badge/CONTACT_ME-D14836?style=for-the-badge&logoColor=white" alt="Contact Me"></a>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW_WORK-111827?style=for-the-badge&logo=githubpages&logoColor=white)](https://klokesh493.github.io/lokesh-kalluru-portfolio/)
+<a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-5B5B5B?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"><img src="https://img.shields.io/badge/VIEW_WORK-111827?style=for-the-badge&logoColor=white" alt="View Work"></a>
 
 ---
 
