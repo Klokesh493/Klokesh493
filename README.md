@@ -6,7 +6,8 @@ I build reliability and automation projects around CI/CD, observability, cloud o
 
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lokesh-reddy-65442118b/)
 [![Email](https://img.shields.io/badge/EMAIL-CONTACT-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:klokesh493@gmail.com)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW%20WORK-111827?style=for-the-badge&logo=githubpages&logoColor=white)](https://klokesh493.github.io/lokesh-kalluru-portfolio/)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-OPEN_SITE-111827?style=for-the-badge&logo=githubpages&logoColor=white)](https://klokesh493.github.io/lokesh-kalluru-portfolio/)
+[![View Work](https://img.shields.io/badge/VIEW_WORK-REPOSITORIES-0F766E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Klokesh493?tab=repositories)
 
 ---
 
