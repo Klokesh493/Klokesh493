@@ -32,6 +32,17 @@ I enjoy building automation that reduces manual work, improves reliability, stre
 
 ---
 
+## GitHub-Backed Resume Highlights
+
+- Public portfolio: 35 public repositories focused on SRE, AI platform reliability, MLOps operations, release gates, and Python automation
+- Primary language signal: 31 Python repositories with compact operational tools and clear problem statements
+- AI platform reliability: incident correlation, inference cache tuning, feature freshness, vector index lag, model endpoint capacity, and schema drift
+- SRE and platform operations: Kubernetes node drain planning, Kafka lag SLO checks, synthetic healthboards, error budget ledgers, and failover planners
+- DevSecOps and release safety: canary scorecards, release freeze checks, cache purge validation, backup secret scanning, and risk scoring
+- Recovery and resilience: immutable backup policy auditing, restore readiness tracking, snapshot drift detection, and backup job risk scoring
+
+---
+
 ## Tech Stack
 
 ### DevOps and CI/CD
@@ -120,6 +131,14 @@ AI platform incident correlation tool for SRE response, designed to connect aler
 
 Key skills: Python, SRE, incident response, AI operations, correlation logic, production support
 
+### Inference Cache Hit Rate Advisor
+
+Repository: [inference-cache-hit-rate-advisor](https://github.com/Klokesh493/inference-cache-hit-rate-advisor)
+
+Inference cache SLO tuning advisor for model-serving endpoints, built to reason about cache efficiency, model serving reliability, and operational tuning.
+
+Key skills: Python, SLO tuning, inference reliability, AI platform operations, model serving
+
 ### Model Serving Canary Analyzer
 
 Repository: [model-serving-canary-analyzer](https://github.com/Klokesh493/model-serving-canary-analyzer)
@@ -127,6 +146,14 @@ Repository: [model-serving-canary-analyzer](https://github.com/Klokesh493/model-
 Model-serving canary release analyzer for MLOps platforms, focused on release safety, rollout checks, and operational decision support.
 
 Key skills: Python, MLOps, canary releases, release gates, SRE, model serving
+
+### Stream Schema Drift Watch
+
+Repository: [stream-schema-drift-watch](https://github.com/Klokesh493/stream-schema-drift-watch)
+
+Kafka stream schema drift detector for AI feature reliability, focused on identifying upstream data changes before they affect downstream model systems.
+
+Key skills: Python, Kafka, schema drift, AI feature reliability, data quality
 
 ### Kubernetes Node Drain Planner
 
@@ -143,14 +170,6 @@ Repository: [kafka-consumer-lag-slo-guard](https://github.com/Klokesh493/kafka-c
 Kafka consumer lag SLO guard for AI feature streams, helping identify stream reliability risks before they affect serving systems.
 
 Key skills: Python, Kafka, SLOs, feature streams, observability, reliability engineering
-
-### Lokesh Python Toolkit
-
-Repository: [lokesh-python-toolkit](https://github.com/Klokesh493/lokesh-python-toolkit)
-
-Compact Python utilities for reliability checks, operational triage, workflow automation, and portfolio-ready DevOps practice.
-
-Key skills: Python, CLI tooling, automation, testing, documentation, production support
 
 ---
 
