@@ -27,7 +27,7 @@ I build reliability and automation projects around CI/CD, observability, cloud o
 | [Lokesh Python Toolkit](https://github.com/Klokesh493/lokesh-python-toolkit) | A collection of small Python operational utilities with sample inputs and tests. | Project-level `unittest` commands and documented examples. |
 | [API Latency SLO Sentinel](https://github.com/Klokesh493/api-latency-slo-sentinel) | Evaluates latency samples against p95 and p99 thresholds for SRE review. | Runnable script, sample CSV, and unit tests. |
 | [Backup Job Risk Scorer](https://github.com/Klokesh493/backup-job-risk-scorer) | Scores backup risk from job age, failures, encryption status, and workload tier. | Runnable script, sample CSV, and unit tests. |
-| [365 Mini Projects](https://github.com/Klokesh493/365-mini-projects) | A daily practice collection for building small, readable automation tools. | Multiple dated projects with focused READMEs. |
+| [SRE Automation Practice](https://github.com/Klokesh493/lokesh-python-toolkit) | Compact Python utilities for reliability checks, operational triage, and workflow automation. | Multiple focused projects with readable READMEs. |
 
 ---
 
