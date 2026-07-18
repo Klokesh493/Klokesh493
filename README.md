@@ -156,11 +156,19 @@ Key skills: Python, CLI tooling, automation, testing, documentation, production 
 
 ## GitHub Stats
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Klokesh493&show_icons=true&theme=default&hide_border=true)](https://github.com/Klokesh493?tab=repositories)
+### Current GitHub Snapshot
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Klokesh493&layout=compact&theme=default&hide_border=true)](https://github.com/Klokesh493?tab=repositories)
+![Public Repositories](https://img.shields.io/badge/PUBLIC_REPOSITORIES-35-111827?style=for-the-badge&logo=github&logoColor=white)
+![Python Repositories](https://img.shields.io/badge/PYTHON_REPOSITORIES-31-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Portfolio Site](https://img.shields.io/badge/PORTFOLIO_SITE-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Klokesh493&theme=github-dark-blue&hide_border=true)](https://git.io/streak-stats)
+![1 Year Contributions](https://img.shields.io/badge/1_YEAR_CONTRIBUTIONS-82-2563EB?style=for-the-badge)
+![Commit Contributions](https://img.shields.io/badge/COMMIT_CONTRIBUTIONS-49-0F766E?style=for-the-badge)
+![Primary Focus](https://img.shields.io/badge/PRIMARY_FOCUS-SRE_%7C_AI_PLATFORM_%7C_DEVSECOPS-1F2937?style=for-the-badge)
+
+Public contribution window: July 19, 2025 to July 18, 2026.
+
+[View repositories](https://github.com/Klokesh493?tab=repositories) | [View contribution activity](https://github.com/Klokesh493?tab=overview) | [View portfolio](https://klokesh493.github.io/lokesh-kalluru-portfolio/)
 
 ---
 
