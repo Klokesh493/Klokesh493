@@ -177,13 +177,13 @@ Key skills: Python, Kafka, SLOs, feature streams, observability, reliability eng
 
 ### Current GitHub Snapshot
 
-![Public Repositories](https://img.shields.io/badge/PUBLIC_REPOSITORIES-35-111827?style=for-the-badge&logo=github&logoColor=white)
-![Python Repositories](https://img.shields.io/badge/PYTHON_REPOSITORIES-31-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Portfolio Site](https://img.shields.io/badge/PORTFOLIO_SITE-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+[![Public Repositories](https://img.shields.io/badge/PUBLIC_REPOSITORIES-35-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Klokesh493?tab=repositories)
+[![Python Repositories](https://img.shields.io/badge/PYTHON_REPOSITORIES-31-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Klokesh493?tab=repositories&q=&type=source&language=python&sort=updated)
+[![Portfolio Site](https://img.shields.io/badge/PORTFOLIO_SITE-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://klokesh493.github.io/lokesh-kalluru-portfolio/)
 
-![1 Year Contributions](https://img.shields.io/badge/1_YEAR_CONTRIBUTIONS-82-2563EB?style=for-the-badge)
-![Commit Contributions](https://img.shields.io/badge/COMMIT_CONTRIBUTIONS-49-0F766E?style=for-the-badge)
-![Primary Focus](https://img.shields.io/badge/PRIMARY_FOCUS-SRE_%7C_AI_PLATFORM_%7C_DEVSECOPS-1F2937?style=for-the-badge)
+[![1 Year Contributions](https://img.shields.io/badge/1_YEAR_CONTRIBUTIONS-85-2563EB?style=for-the-badge)](https://github.com/Klokesh493?tab=overview)
+[![Commit Contributions](https://img.shields.io/badge/COMMIT_CONTRIBUTIONS-52-0F766E?style=for-the-badge)](https://github.com/Klokesh493?tab=overview)
+[![Primary Focus](https://img.shields.io/badge/PRIMARY_FOCUS-SRE_%7C_AI_PLATFORM_%7C_DEVSECOPS-1F2937?style=for-the-badge)](https://klokesh493.github.io/lokesh-kalluru-portfolio/#projects)
 
 Public contribution window: July 19, 2025 to July 18, 2026.
 
