@@ -78,9 +78,11 @@ This section will link to the public repository after publishing.
 
 ## GitHub Stats
 
-![Lokesh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Klokesh493&show_icons=true&theme=default&hide_border=true)
+[![Lokesh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Klokesh493&show_icons=true&theme=default&hide_border=true)](https://github.com/Klokesh493?tab=repositories)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Klokesh493&layout=compact&theme=default&hide_border=true)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Klokesh493&layout=compact&theme=default&hide_border=true)](https://github.com/Klokesh493?tab=repositories)
+
+[View repositories](https://github.com/Klokesh493?tab=repositories) | [View contribution activity](https://github.com/Klokesh493?tab=overview&from=2026-07-01&to=2026-07-31) | [View SRE mini-projects](https://github.com/Klokesh493?tab=repositories&q=&type=source&language=python&sort=updated)
 
 ---
 
