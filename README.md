@@ -1,7 +1,7 @@
 <h1 align="center">Lokesh Reddy</h1>
 <h3 align="center">Site Reliability Engineer | Cloud Platforms | DevSecOps | MLOps</h3>
 <p align="center">Cloud platform reliability, Kafka operations, and AI-assisted incident response.</p>
-<p align="center"><a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations"><strong>Portfolio</strong></a> &nbsp;·&nbsp; <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work"><strong>View Work</strong></a></p>
+<p align="center"><a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations"><img alt="Portfolio — Open site" src="https://img.shields.io/badge/PORTFOLIO-OPEN_SITE-0969DA?style=for-the-badge"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work"><img alt="Projects — View Work" src="https://img.shields.io/badge/PROJECTS-VIEW_WORK-111827?style=for-the-badge"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs"><img alt="Labs — Explore" src="https://img.shields.io/badge/LABS-EXPLORE-087F72?style=for-the-badge"></a></p>
 
 ## Professional Summary
 
@@ -28,11 +28,18 @@ I build and document tools for operating cloud platforms and ML systems. My proj
 
 [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square)](https://prometheus.io/docs/) [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square)](https://grafana.com/docs/) [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)](https://docs.python.org/3/)
 
-## Engineering Focus
+## DevOps and AI Focus
 
 - **Release safety** · Compare a rollout with its baseline before increasing traffic.
 - **Incident response** · Correlate operational signals and use service objectives to guide triage.
 - **Platform operations** · Plan node maintenance and review recovery controls before they are needed.
+
+## Currently Learning
+
+- Kafka administration: topic settings, consumer groups, and lag diagnosis.
+- On-call operations: shift handoffs, acknowledgment deadlines, and escalation policies.
+- AI agent evaluation: cited runbooks, abstention when evidence is missing, and human approval for operational changes.
+- MLOps: model promotion, canary evaluation, and drift signals.
 
 ## Featured Projects
 
@@ -72,10 +79,29 @@ Surface schema changes in streaming data before downstream consumers depend on t
 
 [Open repository](https://github.com/Klokesh493/stream-schema-drift-watch)
 
-## GitHub Activity
+## Future Projects
+
+| Project | Planned scope |
+| --- | --- |
+| Kafka Operations Lab | Run a local cluster and diagnose consumer lag and partition skew. |
+| On-call Triage Agent | Summarize alert evidence and cite runbooks for responder review. |
+| ML Release Pipeline | Gate model promotion on reproducible evaluation and rollback criteria. |
+| Prometheus On-call Lab | Test alert rules, routing, and escalation with synthetic incidents. |
+
+## GitHub Stats
 
 [Contribution activity](https://github.com/Klokesh493#js-contribution-activity) · [All repositories](https://github.com/Klokesh493?tab=repositories)
 
-## Explore My Work
+## What I Bring
+
+- I turn reliability questions into concrete checks, from rollout comparisons to backup policy audits.
+- I connect infrastructure, observability, and ML serving so an operator can see what changed and decide what to do next.
+- I document how to reproduce a result and where a lab's assumptions stop applying.
+
+## Connect with Me
 
 [Portfolio](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations) · [Selected work](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work) · [Lab roadmap](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs) · [Engineering tools](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#tools)
+
+## Open To
+
+Site Reliability Engineering · DevOps and Cloud Platform Engineering · DevSecOps · MLOps and AI Platform Engineering
