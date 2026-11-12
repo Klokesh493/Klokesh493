@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Give reviewers a path from the GitHub profile to the portfolio and featured projects.
+Reviewers need a direct route from the profile to runnable engineering work and its verification evidence.
 
 ## Reproduce the workflow
 

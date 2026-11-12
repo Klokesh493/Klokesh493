@@ -102,6 +102,10 @@ SaaS means Software as a Service.
 
 Site Reliability Engineering · DevOps and Cloud Platform Engineering · DevSecOps · MLOps and AI Platform Engineering
 
+## Business problem
+
+Reviewers need a direct route from the profile to runnable engineering work and its verification evidence.
+
 ## Project walkthrough
 
 ```mermaid
