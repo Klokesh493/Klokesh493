@@ -1,6 +1,6 @@
 # Lokesh Reddy
 
-Senior Site Reliability Engineer focused on cloud platforms, secure software delivery, and ML systems reliability.
+Site Reliability Engineer focused on cloud platforms, secure software delivery, and ML systems reliability.
 
 I build and document engineering projects around a practical question: how do you know a change is safe to ship, and what signals tell you when to intervene?
 
