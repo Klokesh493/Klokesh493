@@ -129,3 +129,7 @@ Open the public GitHub profile, then follow a featured project link or the portf
 Read the [architecture](docs/ARCHITECTURE.md) and [walkthrough](docs/CASE_STUDY.md) for the source path and verification scope.
 
 [Development and review](docs/DEVELOPMENT.md)
+
+## Runbook
+
+[Run, verify, and troubleshoot this project](docs/RUNBOOK.md)
