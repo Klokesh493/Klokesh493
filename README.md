@@ -3,16 +3,17 @@
 <p align="center">I build tools for service reliability, platform operations, and incident response.</p>
 <p align="center"><a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations"><img alt="Portfolio — Open site" src="https://img.shields.io/badge/PORTFOLIO-OPEN_SITE-0758B8?style=for-the-badge&labelColor=24292F"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work"><img alt="Projects — View Work" src="https://img.shields.io/badge/PROJECTS-VIEW_WORK-B73524?style=for-the-badge&labelColor=24292F"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs"><img alt="Labs — Explore" src="https://img.shields.io/badge/LABS-EXPLORE-153D6F?style=for-the-badge&labelColor=24292F"></a></p>
 
-## Featured SRE and Platform Projects
+## Flagship Engineering Projects
 
-| Project | What it demonstrates |
-| --- | --- |
-| [Kubernetes Node Drain Planner](https://github.com/Klokesh493/kubernetes-node-drain-planner) | Check replica counts, pod disruption budgets, and critical workloads before draining a node. |
-| [Multi-Region Failover Planner](https://github.com/Klokesh493/multi-region-failover-planner) | Choose a failover region using health, available capacity, and replication lag. |
-| [API Latency SLO Sentinel](https://github.com/Klokesh493/api-latency-slo-sentinel) | Check p95 and p99 API latency against service objectives. |
-| [Splunk Alert Triage](https://github.com/Klokesh493/splunk-alert-triage) | Deduplicate exported alerts and prioritize services for on-call review. |
-| [Kafka Consumer Lag SLO Guard](https://github.com/Klokesh493/kafka-consumer-lag-slo-guard) | Estimate whether Kafka consumer groups can catch up within a freshness SLO. |
-| [On-call Runbook Retriever](https://github.com/Klokesh493/on-call-runbook-retriever) | Suggest a cited runbook for matching incident symptoms and request review for weak or tied matches. |
+The release pipeline runs the other four projects together. A healthy replay approves the candidate. A synthetic incident holds it when SRE and on-call evidence call for intervention.
+
+| Project | Focus | What to try |
+| --- | --- | --- |
+| [Release Evidence Pipeline](https://github.com/Klokesh493/release-evidence-pipeline) | CI/CD · DevSecOps | Run a release gate that combines SRE, AWS recovery, Azure ML, and on-call reports. Reproduce an approved release and a held incident. |
+| [SRE Error Budget Control Plane](https://github.com/Klokesh493/sre-error-budget-control-plane) | SRE · Prometheus | Evaluate multi-window error budget burn and test when Prometheus should page or open a ticket. |
+| [AWS Event Recovery Platform](https://github.com/Klokesh493/aws-event-recovery-platform) | AWS · Terraform | Retry only failed SQS records, preserve idempotent receipts, and verify recovery with a local dead-letter drill. |
+| [Azure ML Endpoint Release Lab](https://github.com/Klokesh493/azure-ml-endpoint-release-lab) | Azure · MLOps | Train and evaluate a classifier, verify its model artifact, and run the Azure ML scoring contract locally. |
+| [Cloud On-call Evidence Agent](https://github.com/Klokesh493/cloud-oncall-evidence-agent) | Cloud · On-call | Combine fresh SLO, CloudWatch, and change evidence into a cited recommendation for the responder. |
 
 ## Professional Summary
 
@@ -70,6 +71,15 @@ SaaS means Software as a Service.
 
 ## More Engineering Projects
 
+| Project | What it demonstrates |
+| --- | --- |
+| [Kubernetes Node Drain Planner](https://github.com/Klokesh493/kubernetes-node-drain-planner) | Check replica counts, pod disruption budgets, and critical workloads before draining a node. |
+| [Multi-Region Failover Planner](https://github.com/Klokesh493/multi-region-failover-planner) | Choose a failover region using health, available capacity, and replication lag. |
+| [API Latency SLO Sentinel](https://github.com/Klokesh493/api-latency-slo-sentinel) | Check p95 and p99 API latency against service objectives. |
+| [Splunk Alert Triage](https://github.com/Klokesh493/splunk-alert-triage) | Deduplicate exported alerts and prioritize services for on-call review. |
+| [Kafka Consumer Lag SLO Guard](https://github.com/Klokesh493/kafka-consumer-lag-slo-guard) | Estimate whether Kafka consumer groups can catch up within a freshness SLO. |
+| [On-call Runbook Retriever](https://github.com/Klokesh493/on-call-runbook-retriever) | Suggest a cited runbook for matching incident symptoms and request review for weak or tied matches. |
+
 - [On-call Rotation Lab](https://github.com/Klokesh493/on-call-rotation-lab) simulates shift coverage and escalation deadlines.
 - [Production Release Readiness](https://github.com/Klokesh493/production-release-readiness) checks rollback drills, ownership, and remaining error budget.
 - [Immutable Backup Policy Auditor](https://github.com/Klokesh493/immutable-backup-policy-auditor) reviews backup immutability, retention, and encryption.
@@ -80,9 +90,9 @@ SaaS means Software as a Service.
 | Project | Planned scope |
 | --- | --- |
 | Kafka Operations Lab | Run a local cluster and diagnose consumer lag and partition skew. |
-| On-call Triage Agent | Summarize alert evidence and cite runbooks for responder review. |
-| ML Release Pipeline | Gate model promotion on reproducible evaluation and rollback criteria. |
-| Prometheus On-call Lab | Test alert rules, routing, and escalation with synthetic incidents. |
+| Live CloudWatch Drill | Replay alarm evidence against an isolated AWS environment. |
+| Azure ML Canary Drill | Verify a live candidate deployment and test controlled rollback. |
+| Alertmanager Routing Lab | Exercise routing and inhibition against simulated service incidents. |
 
 ## GitHub Stats
 
@@ -115,7 +125,7 @@ This repository is the source of my GitHub Overview. I organized the README arou
 ```mermaid
 flowchart LR
     A["GitHub profile visit"]
-    B["Profile README and featured project table"]
+    B["Profile README and flagship project table"]
     C["Choose what to explore"]
     D["Portfolio homepage"]
     E["Featured public repository"]
