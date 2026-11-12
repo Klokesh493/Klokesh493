@@ -9,6 +9,7 @@
 | --- | --- |
 | [On-call Rotation Lab](https://github.com/Klokesh493/on-call-rotation-lab) | Primary and secondary coverage, acknowledgment deadlines, escalation, and five unit tests. |
 | [Splunk Alert Triage](https://github.com/Klokesh493/splunk-alert-triage) | A Python CLI and synthetic CSV for deduplicating alerts and prioritizing services. |
+| [On-call Runbook Retriever](https://github.com/Klokesh493/on-call-runbook-retriever) | Cited runbook retrieval with human review for weak or tied matches. |
 | [Model Serving Canary Analyzer](https://github.com/Klokesh493/model-serving-canary-analyzer) | MLOps release safety. Compare canary and baseline signals before expanding model-serving traffic. |
 
 ## Professional Summary
