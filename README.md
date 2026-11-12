@@ -22,11 +22,11 @@ I build and document tools for operating cloud platforms and ML systems. My proj
 
 ### Cloud, Platform, and Security
 
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-2758C9?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/docs/) [![Docker](https://img.shields.io/badge/Docker-1471B9?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/) [![Terraform](https://img.shields.io/badge/Terraform-6540A4?style=for-the-badge&logo=terraform&logoColor=white)](https://developer.hashicorp.com/terraform/docs) [![DevSecOps](https://img.shields.io/badge/DevSecOps-343C50?style=for-the-badge)](https://github.com/Klokesh493/immutable-backup-policy-auditor)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-2758C9?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/docs/) [![Docker](https://img.shields.io/badge/Docker-1471B9?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/) [![Terraform](https://img.shields.io/badge/Terraform-6540A4?style=for-the-badge&logo=terraform&logoColor=white)](https://developer.hashicorp.com/terraform/docs) [![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge)](https://docs.aws.amazon.com/) [![DevSecOps](https://img.shields.io/badge/DevSecOps-343C50?style=for-the-badge)](https://github.com/Klokesh493/immutable-backup-policy-auditor)
 
 ### Monitoring, SRE, and On-call
 
-[![SRE](https://img.shields.io/badge/SRE-111827?style=for-the-badge)](https://github.com/Klokesh493/ai-incident-correlation-engine) [![Splunk](https://img.shields.io/badge/Splunk-171717?style=for-the-badge&logo=splunk&logoColor=white)](https://docs.splunk.com/) [![Prometheus](https://img.shields.io/badge/Prometheus-B94027?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/docs/) [![Grafana](https://img.shields.io/badge/Grafana-A6470F?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/docs/) [![PagerDuty](https://img.shields.io/badge/PagerDuty-067448?style=for-the-badge&logo=pagerduty&logoColor=white)](https://github.com/Klokesh493/on-call-rotation-lab) [![On-call Rotation](https://img.shields.io/badge/On-call_Rotation-394860?style=for-the-badge)](https://github.com/Klokesh493/on-call-rotation-lab) [![24x7 Support](https://img.shields.io/badge/24x7_Support-394860?style=for-the-badge)](https://github.com/Klokesh493/on-call-rotation-lab) [![Alert Operations](https://img.shields.io/badge/Alert_Operations-394860?style=for-the-badge)](https://github.com/Klokesh493/ai-incident-correlation-engine)
+[![SRE](https://img.shields.io/badge/SRE-111827?style=for-the-badge)](https://github.com/Klokesh493/ai-incident-correlation-engine) [![Splunk](https://img.shields.io/badge/Splunk-171717?style=for-the-badge&logo=splunk&logoColor=white)](https://github.com/Klokesh493/splunk-alert-triage) [![Prometheus](https://img.shields.io/badge/Prometheus-B94027?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/docs/) [![Grafana](https://img.shields.io/badge/Grafana-A6470F?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/docs/) [![PagerDuty](https://img.shields.io/badge/PagerDuty-067448?style=for-the-badge&logo=pagerduty&logoColor=white)](https://github.com/Klokesh493/on-call-rotation-lab) [![On-call Rotation](https://img.shields.io/badge/On-call_Rotation-394860?style=for-the-badge)](https://github.com/Klokesh493/on-call-rotation-lab) [![24/7 Support](https://img.shields.io/badge/24x7_Support-394860?style=for-the-badge)](https://github.com/Klokesh493/on-call-rotation-lab) [![Alert Operations](https://img.shields.io/badge/Alert_Operations-394860?style=for-the-badge)](https://github.com/Klokesh493/ai-incident-correlation-engine)
 
 ### Streaming, AI, and ML
 
@@ -34,7 +34,7 @@ I build and document tools for operating cloud platforms and ML systems. My proj
 
 ### Service and Support Domains
 
-[![SaaS](https://img.shields.io/badge/SaaS-126079?style=for-the-badge)](#professional-snapshot) [![DAS](https://img.shields.io/badge/DAS-394860?style=for-the-badge)](#professional-snapshot)
+[![SaaS](https://img.shields.io/badge/SaaS-126079?style=for-the-badge)](#professional-snapshot)
 
 ## DevOps and AI Focus
 
@@ -50,6 +50,12 @@ I build and document tools for operating cloud platforms and ML systems. My proj
 - MLOps: model promotion, canary evaluation, and drift signals.
 
 ## Featured Projects
+
+### Splunk Alert Triage
+
+Prioritize exported alert rows by service and severity, deduplicate repeated events, and flag conflicting records for review.
+
+[Open repository](https://github.com/Klokesh493/splunk-alert-triage)
 
 ### On-call Rotation Lab
 
