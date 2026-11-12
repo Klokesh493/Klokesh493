@@ -2,7 +2,7 @@
 
 **Site Reliability Engineer** · Cloud platforms, secure delivery, and ML systems reliability
 
-[**Portfolio**](https://klokesh493.github.io/lokesh-kalluru-portfolio/) · [**View Work**](https://klokesh493.github.io/lokesh-kalluru-portfolio/#work)
+[**Portfolio**](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=overview) · [**View Work**](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=overview#work)
 
 I build tools for checking rollout signals, planning infrastructure maintenance, and making incident triage easier.
 
@@ -15,4 +15,4 @@ I build tools for checking rollout signals, planning infrastructure maintenance,
 - [**Immutable backup policy auditor**](https://github.com/Klokesh493/immutable-backup-policy-auditor) · Review backup policy settings for immutability controls.
 - [**Stream schema drift watch**](https://github.com/Klokesh493/stream-schema-drift-watch) · Surface schema changes in streaming data before downstream consumers depend on them.
 
-[Engineering tools](https://klokesh493.github.io/lokesh-kalluru-portfolio/#tools) · [All repositories](https://github.com/Klokesh493?tab=repositories)
+[Engineering tools](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=overview#tools) · [All repositories](https://github.com/Klokesh493?tab=repositories)
