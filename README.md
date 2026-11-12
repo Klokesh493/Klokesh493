@@ -43,6 +43,12 @@ I build and document tools for operating cloud platforms and ML systems. My proj
 
 ## Featured Projects
 
+### On-call Rotation Lab
+
+Run a Python simulation of primary and secondary coverage, acknowledgment deadlines, and PagerDuty-style escalation. Five local tests cover shift boundaries and scheduling errors.
+
+[Open repository](https://github.com/Klokesh493/on-call-rotation-lab)
+
 ### Model serving canary analyzer
 
 Compare canary and baseline model-serving signals before deciding whether to expand a rollout. **Focus:** MLOps · Release safety.
