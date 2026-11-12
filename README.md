@@ -121,3 +121,9 @@ flowchart LR
 ```
 
 [Architecture and data flow](docs/ARCHITECTURE.md) · [Business problem, demo, and verification](docs/CASE_STUDY.md)
+
+## Run the project
+
+Open the public GitHub profile, then follow a featured project link or the portfolio button.
+
+Read the [architecture](docs/ARCHITECTURE.md) and [walkthrough](docs/CASE_STUDY.md) for the source path and verification scope.
