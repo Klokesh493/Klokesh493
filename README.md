@@ -18,15 +18,23 @@ I build and document tools for operating cloud platforms and ML systems. My proj
 
 ### DevOps and CI/CD
 
-[![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square)](https://www.jenkins.io/doc/) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square)](https://docs.github.com/actions)
+[![DevOps](https://img.shields.io/badge/DevOps-0969DA?style=for-the-badge)](https://github.com/Klokesh493/traffic-shift-canary-scorecard) [![CI/CD](https://img.shields.io/badge/CI%2FCD-0969DA?style=for-the-badge)](https://docs.github.com/actions) [![Jenkins](https://img.shields.io/badge/Jenkins-B63730?style=for-the-badge&logo=jenkins&logoColor=white)](https://www.jenkins.io/doc/) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1665C1?style=for-the-badge&logo=githubactions&logoColor=white)](https://docs.github.com/actions)
 
-### Cloud and Platform Engineering
+### Cloud, Platform, and Security
 
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square)](https://kubernetes.io/docs/) [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square)](https://docs.docker.com/) [![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat-square)](https://developer.hashicorp.com/terraform/docs)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-2758C9?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/docs/) [![Docker](https://img.shields.io/badge/Docker-1471B9?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/) [![Terraform](https://img.shields.io/badge/Terraform-6540A4?style=for-the-badge&logo=terraform&logoColor=white)](https://developer.hashicorp.com/terraform/docs) [![DevSecOps](https://img.shields.io/badge/DevSecOps-343C50?style=for-the-badge)](https://github.com/Klokesh493/immutable-backup-policy-auditor)
 
-### Monitoring and Automation
+### Monitoring, SRE, and On-call
 
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square)](https://prometheus.io/docs/) [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square)](https://grafana.com/docs/) [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)](https://docs.python.org/3/)
+[![SRE](https://img.shields.io/badge/SRE-111827?style=for-the-badge)](https://github.com/Klokesh493/ai-incident-correlation-engine) [![Splunk](https://img.shields.io/badge/Splunk-171717?style=for-the-badge&logo=splunk&logoColor=white)](https://docs.splunk.com/) [![Prometheus](https://img.shields.io/badge/Prometheus-B94027?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/docs/) [![Grafana](https://img.shields.io/badge/Grafana-A6470F?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/docs/) [![PagerDuty](https://img.shields.io/badge/PagerDuty-067448?style=for-the-badge&logo=pagerduty&logoColor=white)](https://github.com/Klokesh493/on-call-rotation-lab) [![On-call Rotation](https://img.shields.io/badge/On-call_Rotation-394860?style=for-the-badge)](https://github.com/Klokesh493/on-call-rotation-lab) [![24x7 Support](https://img.shields.io/badge/24x7_Support-394860?style=for-the-badge)](https://github.com/Klokesh493/on-call-rotation-lab) [![Alert Operations](https://img.shields.io/badge/Alert_Operations-394860?style=for-the-badge)](https://github.com/Klokesh493/ai-incident-correlation-engine)
+
+### Streaming, AI, and ML
+
+[![Kafka](https://img.shields.io/badge/Kafka-252B36?style=for-the-badge&logo=apachekafka&logoColor=white)](https://github.com/Klokesh493/kafka-consumer-lag-slo-guard) [![Flink](https://img.shields.io/badge/Flink-A91C59?style=for-the-badge&logo=apacheflink&logoColor=white)](https://flink.apache.org/) [![Python](https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/) [![MLOps](https://img.shields.io/badge/MLOps-623BA5?style=for-the-badge)](https://github.com/Klokesh493/model-serving-canary-analyzer) [![AI Agents](https://img.shields.io/badge/AI_Agents-087F72?style=for-the-badge)](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs)
+
+### Service and Support Domains
+
+[![SaaS](https://img.shields.io/badge/SaaS-126079?style=for-the-badge)](#professional-snapshot) [![DAS](https://img.shields.io/badge/DAS-394860?style=for-the-badge)](#professional-snapshot)
 
 ## DevOps and AI Focus
 
