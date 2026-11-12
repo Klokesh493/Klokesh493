@@ -1,7 +1,15 @@
 <h1 align="center">Lokesh Reddy</h1>
 <h3 align="center">Site Reliability Engineer | Cloud Platforms | DevSecOps | MLOps</h3>
-<p align="center">Cloud platform reliability, Kafka operations, and AI-assisted incident response.</p>
+<p align="center">I build tools for cloud reliability, secure delivery, and on-call response.</p>
 <p align="center"><a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations"><img alt="Portfolio — Open site" src="https://img.shields.io/badge/PORTFOLIO-OPEN_SITE-0969DA?style=for-the-badge"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work"><img alt="Projects — View Work" src="https://img.shields.io/badge/PROJECTS-VIEW_WORK-111827?style=for-the-badge"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs"><img alt="Labs — Explore" src="https://img.shields.io/badge/LABS-EXPLORE-087F72?style=for-the-badge"></a></p>
+
+## Start Here
+
+| Project | What you can inspect |
+| --- | --- |
+| [On-call Rotation Lab](https://github.com/Klokesh493/on-call-rotation-lab) | Primary and secondary coverage, acknowledgment deadlines, escalation, and five unit tests. |
+| [Splunk Alert Triage](https://github.com/Klokesh493/splunk-alert-triage) | A Python CLI and synthetic CSV for deduplicating alerts and prioritizing services. |
+| [Model Serving Canary Analyzer](https://github.com/Klokesh493/model-serving-canary-analyzer) | A release safety project for evaluating model-serving canaries. |
 
 ## Professional Summary
 
@@ -23,6 +31,12 @@ I build and document tools for operating cloud platforms and ML systems. My proj
 ### Cloud, Platform, and Security
 
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-2758C9?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/docs/) [![Docker](https://img.shields.io/badge/Docker-1471B9?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/) [![Terraform](https://img.shields.io/badge/Terraform-6540A4?style=for-the-badge&logo=terraform&logoColor=white)](https://developer.hashicorp.com/terraform/docs) [![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge)](https://docs.aws.amazon.com/) [![DevSecOps](https://img.shields.io/badge/DevSecOps-343C50?style=for-the-badge)](https://github.com/Klokesh493/immutable-backup-policy-auditor)
+
+### DevSecOps Tooling
+
+[![Trivy](https://img.shields.io/badge/Trivy-A64808?style=for-the-badge&logo=trivy&logoColor=white)](https://trivy.dev/docs/) [![Gitleaks](https://img.shields.io/badge/Gitleaks-9C343B?style=for-the-badge)](https://github.com/gitleaks/gitleaks) [![HashiCorp Vault](https://img.shields.io/badge/HashiCorp_Vault-242C39?style=for-the-badge&logo=vault&logoColor=white)](https://developer.hashicorp.com/vault/docs) [![Checkov](https://img.shields.io/badge/Checkov-4D45A7?style=for-the-badge)](https://www.checkov.io/) [![Sigstore Cosign](https://img.shields.io/badge/Sigstore_Cosign-116A60?style=for-the-badge&logo=sigstore&logoColor=white)](https://docs.sigstore.dev/cosign/)
+
+Tool references for container scanning, secret detection, secrets management, infrastructure policy, and artifact signing. For a portfolio example, see the [Immutable Backup Policy Auditor](https://github.com/Klokesh493/immutable-backup-policy-auditor).
 
 ### Monitoring, SRE, and On-call
 
