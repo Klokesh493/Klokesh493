@@ -1,15 +1,15 @@
 <h1 align="center">Lokesh Reddy</h1>
 <h3 align="center">Site Reliability Engineer | Cloud Platforms | DevSecOps | MLOps</h3>
 <p align="center">I build tools for cloud reliability, secure delivery, and on-call response.</p>
-<p align="center"><a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations"><img alt="Portfolio — Open site" src="https://img.shields.io/badge/PORTFOLIO-OPEN_SITE-0969DA?style=for-the-badge"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work"><img alt="Projects — View Work" src="https://img.shields.io/badge/PROJECTS-VIEW_WORK-111827?style=for-the-badge"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs"><img alt="Labs — Explore" src="https://img.shields.io/badge/LABS-EXPLORE-087F72?style=for-the-badge"></a></p>
+<p align="center"><a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations"><img alt="Portfolio — Open site" src="https://img.shields.io/badge/PORTFOLIO-OPEN_SITE-0758B8?style=for-the-badge&labelColor=24292F"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work"><img alt="Projects — View Work" src="https://img.shields.io/badge/PROJECTS-VIEW_WORK-B73524?style=for-the-badge&labelColor=24292F"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs"><img alt="Labs — Explore" src="https://img.shields.io/badge/LABS-EXPLORE-153D6F?style=for-the-badge&labelColor=24292F"></a></p>
 
-## Start Here
+## SRE and On-call Projects
 
 | Project | What you can inspect |
 | --- | --- |
 | [On-call Rotation Lab](https://github.com/Klokesh493/on-call-rotation-lab) | Primary and secondary coverage, acknowledgment deadlines, escalation, and five unit tests. |
 | [Splunk Alert Triage](https://github.com/Klokesh493/splunk-alert-triage) | A Python CLI and synthetic CSV for deduplicating alerts and prioritizing services. |
-| [Model Serving Canary Analyzer](https://github.com/Klokesh493/model-serving-canary-analyzer) | A release safety project for evaluating model-serving canaries. |
+| [Model Serving Canary Analyzer](https://github.com/Klokesh493/model-serving-canary-analyzer) | MLOps release safety. Compare canary and baseline signals before expanding model-serving traffic. |
 
 ## Professional Summary
 
@@ -49,6 +49,8 @@ Tool references for container scanning, secret detection, secrets management, in
 ### Service and Support Domains
 
 [![SaaS](https://img.shields.io/badge/SaaS-126079?style=for-the-badge)](#professional-snapshot)
+
+SaaS means Software as a Service.
 
 ## DevOps and AI Focus
 
