@@ -5,15 +5,16 @@
 
 ## Flagship Engineering Projects
 
-The release pipeline runs the other four projects together. A healthy replay approves the candidate. A synthetic incident holds it when SRE and on-call evidence call for intervention.
+The release pipeline combines the SRE, AWS recovery, Azure ML, and on-call labs. A healthy replay approves the candidate. A synthetic incident holds it when SRE and on-call evidence call for intervention.
 
 | Project | Focus | What to try |
 | --- | --- | --- |
 | [Release Evidence Pipeline](https://github.com/Klokesh493/release-evidence-pipeline) | CI/CD · DevSecOps | Run a release gate that combines SRE, AWS recovery, Azure ML, and on-call reports. Reproduce an approved release and a held incident. |
-| [SRE Error Budget Control Plane](https://github.com/Klokesh493/sre-error-budget-control-plane) | SRE · Prometheus | Evaluate multi-window error budget burn and test when Prometheus should page or open a ticket. |
+| [SRE Error Budget Control Plane](https://github.com/Klokesh493/sre-error-budget-control-plane) | SRE · Prometheus | Replay error-budget burn and verify Alertmanager page delivery, ticket routing, and inhibition. [Routing drill](https://github.com/Klokesh493/sre-error-budget-control-plane/blob/main/docs/RUNBOOK.md#verify-alertmanager-routing) |
 | [AWS Event Recovery Platform](https://github.com/Klokesh493/aws-event-recovery-platform) | AWS · Terraform | Retry only failed SQS records, preserve idempotent receipts, and verify recovery with a local dead-letter drill. |
 | [Azure ML Endpoint Release Lab](https://github.com/Klokesh493/azure-ml-endpoint-release-lab) | Azure · MLOps | Train and evaluate a classifier, verify its model artifact, and run the Azure ML scoring contract locally. |
 | [Cloud On-call Evidence Agent](https://github.com/Klokesh493/cloud-oncall-evidence-agent) | Cloud · On-call | Combine fresh SLO, CloudWatch, and change evidence into a cited recommendation for the responder. |
+| [Kubernetes Node Drain Planner](https://github.com/Klokesh493/kubernetes-node-drain-planner) | Platform · Kubernetes | Check replica counts, pod disruption budgets, and critical workloads before draining a node. |
 
 ## Professional Summary
 
@@ -73,7 +74,6 @@ SaaS means Software as a Service.
 
 | Project | What it demonstrates |
 | --- | --- |
-| [Kubernetes Node Drain Planner](https://github.com/Klokesh493/kubernetes-node-drain-planner) | Check replica counts, pod disruption budgets, and critical workloads before draining a node. |
 | [Multi-Region Failover Planner](https://github.com/Klokesh493/multi-region-failover-planner) | Choose a failover region using health, available capacity, and replication lag. |
 | [API Latency SLO Sentinel](https://github.com/Klokesh493/api-latency-slo-sentinel) | Check p95 and p99 API latency against service objectives. |
 | [Splunk Alert Triage](https://github.com/Klokesh493/splunk-alert-triage) | Deduplicate exported alerts and prioritize services for on-call review. |
@@ -90,9 +90,7 @@ SaaS means Software as a Service.
 | Project | Planned scope |
 | --- | --- |
 | Kafka Operations Lab | Run a local cluster and diagnose consumer lag and partition skew. |
-| Live CloudWatch Drill | Replay alarm evidence against an isolated AWS environment. |
-| Azure ML Canary Drill | Verify a live candidate deployment and test controlled rollback. |
-| Alertmanager Routing Lab | Exercise routing and inhibition against simulated service incidents. |
+| Azure ML Canary Replay | Compare candidate and baseline predictions using a local holdout replay. |
 
 ## GitHub Stats
 
@@ -111,6 +109,9 @@ SaaS means Software as a Service.
 ## Open To
 
 Site Reliability Engineering · DevOps and Cloud Platform Engineering · DevSecOps · MLOps and AI Platform Engineering
+
+<details>
+<summary>About this profile repository</summary>
 
 ## Business problem
 
@@ -147,3 +148,5 @@ Read the [architecture](docs/ARCHITECTURE.md) and [walkthrough](docs/CASE_STUDY.
 ## Runbook
 
 [Run, verify, and troubleshoot this project](docs/RUNBOOK.md)
+
+</details>
