@@ -1,16 +1,18 @@
 <h1 align="center">Lokesh Reddy</h1>
 <h3 align="center">Site Reliability Engineer | Cloud Platforms | DevSecOps | MLOps</h3>
-<p align="center">I build tools for cloud reliability, secure delivery, and on-call response.</p>
+<p align="center">I build tools for service reliability, platform operations, and incident response.</p>
 <p align="center"><a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations"><img alt="Portfolio — Open site" src="https://img.shields.io/badge/PORTFOLIO-OPEN_SITE-0758B8?style=for-the-badge&labelColor=24292F"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work"><img alt="Projects — View Work" src="https://img.shields.io/badge/PROJECTS-VIEW_WORK-B73524?style=for-the-badge&labelColor=24292F"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs"><img alt="Labs — Explore" src="https://img.shields.io/badge/LABS-EXPLORE-153D6F?style=for-the-badge&labelColor=24292F"></a></p>
 
-## SRE and On-call Projects
+## Featured SRE and Platform Projects
 
-| Project | What you can inspect |
+| Project | What it demonstrates |
 | --- | --- |
-| [On-call Rotation Lab](https://github.com/Klokesh493/on-call-rotation-lab) | Primary and secondary coverage, acknowledgment deadlines, escalation, and five unit tests. |
-| [Splunk Alert Triage](https://github.com/Klokesh493/splunk-alert-triage) | A Python CLI and synthetic CSV for deduplicating alerts and prioritizing services. |
-| [On-call Runbook Retriever](https://github.com/Klokesh493/on-call-runbook-retriever) | Cited runbook retrieval with human review for weak or tied matches. |
-| [Model Serving Canary Analyzer](https://github.com/Klokesh493/model-serving-canary-analyzer) | MLOps release safety. Compare canary and baseline signals before expanding model-serving traffic. |
+| [Kubernetes Node Drain Planner](https://github.com/Klokesh493/kubernetes-node-drain-planner) | Check replica counts, pod disruption budgets, and critical workloads before draining a node. |
+| [Multi-Region Failover Planner](https://github.com/Klokesh493/multi-region-failover-planner) | Choose a failover region using health, available capacity, and replication lag. |
+| [API Latency SLO Sentinel](https://github.com/Klokesh493/api-latency-slo-sentinel) | Check p95 and p99 API latency against service objectives. |
+| [Splunk Alert Triage](https://github.com/Klokesh493/splunk-alert-triage) | Deduplicate exported alerts and prioritize services for on-call review. |
+| [Kafka Consumer Lag SLO Guard](https://github.com/Klokesh493/kafka-consumer-lag-slo-guard) | Estimate whether Kafka consumer groups can catch up within a freshness SLO. |
+| [On-call Runbook Retriever](https://github.com/Klokesh493/on-call-runbook-retriever) | Suggest a cited runbook for matching incident symptoms and request review for weak or tied matches. |
 
 ## Professional Summary
 
@@ -18,8 +20,8 @@ I build and document tools for operating cloud platforms and ML systems. My proj
 
 ## Professional Snapshot
 
-- **Site reliability** · Service objectives, alert triage, and operational readiness
-- **Cloud and platform** · Kubernetes maintenance, infrastructure as code, and CI/CD
+- **Site reliability** · Latency and freshness SLOs, incident triage, and failover readiness
+- **Cloud and platform** · Kubernetes disruption controls, streaming operations, and release gates
 - **Secure delivery** · Release checks and backup policy review
 - **MLOps** · Model-serving canaries and streaming data validation
 
@@ -66,55 +68,12 @@ SaaS means Software as a Service.
 - AI agent evaluation: cited runbooks, abstention when evidence is missing, and human approval for operational changes.
 - MLOps: model promotion, canary evaluation, and drift signals.
 
-## Featured Projects
+## More Engineering Projects
 
-### Splunk Alert Triage
-
-Prioritize exported alert rows by service and severity, deduplicate repeated events, and flag conflicting records for review.
-
-[Open repository](https://github.com/Klokesh493/splunk-alert-triage)
-
-### On-call Rotation Lab
-
-Run a Python simulation of primary and secondary coverage, acknowledgment deadlines, and PagerDuty-style escalation. Five local tests cover shift boundaries and scheduling errors.
-
-[Open repository](https://github.com/Klokesh493/on-call-rotation-lab)
-
-### Model serving canary analyzer
-
-Compare canary and baseline model-serving signals before deciding whether to expand a rollout. **Focus:** MLOps · Release safety.
-
-[Open repository](https://github.com/Klokesh493/model-serving-canary-analyzer)
-
-### AI incident correlation engine
-
-Group related operational signals so responders can investigate the same incident together. **Focus:** SRE · Incident response.
-
-[Open repository](https://github.com/Klokesh493/ai-incident-correlation-engine)
-
-### Kubernetes node drain planner
-
-Plan node maintenance around workload disruption and scheduling constraints. **Focus:** Platform · Maintenance.
-
-[Open repository](https://github.com/Klokesh493/kubernetes-node-drain-planner)
-
-### Kafka consumer lag SLO guard
-
-Evaluate consumer lag against reliability thresholds for streaming workloads. **Focus:** SRE · Streaming.
-
-[Open repository](https://github.com/Klokesh493/kafka-consumer-lag-slo-guard)
-
-### Immutable backup policy auditor
-
-Review backup policy settings for immutability controls. **Focus:** DevSecOps · Recovery.
-
-[Open repository](https://github.com/Klokesh493/immutable-backup-policy-auditor)
-
-### Stream schema drift watch
-
-Surface schema changes in streaming data before downstream consumers depend on them. **Focus:** Data reliability · MLOps.
-
-[Open repository](https://github.com/Klokesh493/stream-schema-drift-watch)
+- [On-call Rotation Lab](https://github.com/Klokesh493/on-call-rotation-lab) simulates shift coverage and escalation deadlines.
+- [Production Release Readiness](https://github.com/Klokesh493/production-release-readiness) checks rollback drills, ownership, and remaining error budget.
+- [Immutable Backup Policy Auditor](https://github.com/Klokesh493/immutable-backup-policy-auditor) reviews backup immutability, retention, and encryption.
+- [Model Serving Canary Analyzer](https://github.com/Klokesh493/model-serving-canary-analyzer) compares baseline and canary signals before expanding model traffic.
 
 ## Future Projects
 
