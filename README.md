@@ -1,7 +1,7 @@
 <h1 align="center">Lokesh Reddy</h1>
 <h3 align="center">Site Reliability Engineer | Cloud Platforms | DevSecOps | MLOps</h3>
-<p align="center">Cloud platform reliability, safer releases, and practical automation for operations.</p>
-<p align="center"><a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=overview"><strong>Portfolio</strong></a> &nbsp;·&nbsp; <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=overview#work"><strong>View Work</strong></a></p>
+<p align="center">Cloud platform reliability, Kafka operations, and AI-assisted incident response.</p>
+<p align="center"><a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations"><strong>Portfolio</strong></a> &nbsp;·&nbsp; <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work"><strong>View Work</strong></a></p>
 
 ## Professional Summary
 
@@ -78,4 +78,4 @@ Surface schema changes in streaming data before downstream consumers depend on t
 
 ## Explore My Work
 
-[Portfolio](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=overview) · [Selected work](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=overview#work) · [Engineering tools](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=overview#tools)
+[Portfolio](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations) · [Selected work](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work) · [Lab roadmap](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs) · [Engineering tools](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#tools)
