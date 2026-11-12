@@ -4,10 +4,14 @@ Give reviewers a path from the GitHub profile to the portfolio and featured proj
 
 ```mermaid
 flowchart LR
-    N0["Profile README"]
-    N1["GitHub profile rendering"]
-    N2["Portfolio and project navigation"]
-    N0 --> N1 --> N2
+    A["GitHub profile visit"]
+    B["Profile README and featured project table"]
+    C["Choose what to explore"]
+    D["Portfolio homepage"]
+    E["Featured public repository"]
+    A --> B --> C
+    C --> D
+    C --> E
 ```
 
 ## Operational boundaries
