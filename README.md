@@ -106,6 +106,10 @@ Site Reliability Engineering · DevOps and Cloud Platform Engineering · DevSecO
 
 Reviewers need a direct route from the profile to runnable engineering work and its verification evidence.
 
+## What I built
+
+This repository is the source of my GitHub Overview. I organized the README around selected SRE and platform projects, then linked each entry to the public repository so reviewers can see the code, an example, and its verification evidence. GitHub renders the Markdown and HTML, and Shields.io supplies the navigation badges.
+
 ## Project walkthrough
 
 ```mermaid
