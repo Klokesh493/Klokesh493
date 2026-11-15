@@ -16,6 +16,18 @@ The release pipeline combines the SRE, AWS recovery, Azure ML, and on-call labs.
 | [Cloud On-call Evidence Agent](https://github.com/Klokesh493/cloud-oncall-evidence-agent) | Cloud · On-call | Combine fresh SLO, CloudWatch, and change evidence into a cited recommendation for the responder. |
 | [Kubernetes Node Drain Planner](https://github.com/Klokesh493/kubernetes-node-drain-planner) | Platform · Kubernetes | Check replica counts, pod disruption budgets, and critical workloads before draining a node. |
 
+## AI agents and evaluation
+
+Each lab uses a local Qwen model to select read-only evidence probes. The repositories include synthetic fixtures, policy tests, and a captured model report.
+
+| Project | What to verify |
+| --- | --- |
+| [SRE Incident Investigation](https://github.com/Klokesh493/llm-sre-incident-investigation-agent) | A measured breach merits a page recommendation. Missing telemetry goes to review. |
+| [Dependency Remediation](https://github.com/Klokesh493/ai-dependency-remediation-agent) | Find a candidate outside affected advisory ranges and check it against the approval limit. |
+| [AI Release Regression](https://github.com/Klokesh493/ai-release-regression-agent) | Hold on a critical regression, unsupported citation, or token budget overrun. |
+| [Support Knowledge](https://github.com/Klokesh493/ai-support-knowledge-agent) | Return an approved excerpt from the right tenant or escalate. |
+| [Model Drift Investigation](https://github.com/Klokesh493/ai-model-drift-investigation-agent) | Evaluate feature shift, label quality, and data freshness together. |
+
 ## Professional Summary
 
 I build and document tools for operating cloud platforms and ML systems. My projects focus on the decisions engineers make during a rollout, an incident, or planned maintenance: what to measure, when to intervene, and how to make the next action clear.
@@ -150,3 +162,5 @@ Read the [architecture](docs/ARCHITECTURE.md) and [walkthrough](docs/CASE_STUDY.
 [Run, verify, and troubleshoot this project](docs/RUNBOOK.md)
 
 </details>
+
+[Skills and verification](docs/ENGINEERING_NOTES.md)
