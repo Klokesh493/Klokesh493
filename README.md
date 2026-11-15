@@ -1,43 +1,37 @@
 <h1 align="center">Lokesh Reddy</h1>
-<h3 align="center">Site Reliability Engineer | Cloud Platforms | DevSecOps | MLOps</h3>
-<p align="center">I build tools for service reliability, platform operations, and incident response.</p>
-<p align="center"><a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations"><img alt="Portfolio — Open site" src="https://img.shields.io/badge/PORTFOLIO-OPEN_SITE-0758B8?style=for-the-badge&labelColor=24292F"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work"><img alt="Projects — View Work" src="https://img.shields.io/badge/PROJECTS-VIEW_WORK-B73524?style=for-the-badge&labelColor=24292F"></a> <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs"><img alt="Labs — Explore" src="https://img.shields.io/badge/LABS-EXPLORE-153D6F?style=for-the-badge&labelColor=24292F"></a></p>
+<h3 align="center">Site Reliability Engineer · Cloud Platforms · DevSecOps · AI for Operations</h3>
+<p align="center">I build tools that help responders investigate incidents, recover services, and make safer release decisions.</p>
+<p align="center">
+  <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/"><img alt="Portfolio — Open site" src="https://img.shields.io/badge/PORTFOLIO-OPEN_SITE-0758B8?style=for-the-badge&amp;labelColor=18253B"></a>
+  <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/#work"><img alt="Projects — View work" src="https://img.shields.io/badge/PROJECTS-VIEW_WORK-B73524?style=for-the-badge&amp;labelColor=18253B"></a>
+  <a href="https://klokesh493.github.io/lokesh-kalluru-portfolio/#labs"><img alt="AI labs — Explore" src="https://img.shields.io/badge/AI_LABS-EXPLORE-08716C?style=for-the-badge&amp;labelColor=18253B"></a>
+</p>
 
-## Flagship Engineering Projects
+## Selected Work
 
-The release pipeline combines the SRE, AWS recovery, Azure ML, and on-call labs. A healthy replay approves the candidate. A synthetic incident holds it when SRE and on-call evidence call for intervention.
-
-| Project | Focus | What to try |
-| --- | --- | --- |
-| [Release Evidence Pipeline](https://github.com/Klokesh493/release-evidence-pipeline) | CI/CD · DevSecOps | Run a release gate that combines SRE, AWS recovery, Azure ML, and on-call reports. Reproduce an approved release and a held incident. |
-| [SRE Error Budget Control Plane](https://github.com/Klokesh493/sre-error-budget-control-plane) | SRE · Prometheus | Replay error-budget burn and verify Alertmanager page delivery, ticket routing, and inhibition. [Routing drill](https://github.com/Klokesh493/sre-error-budget-control-plane/blob/main/docs/RUNBOOK.md#verify-alertmanager-routing) |
-| [AWS Event Recovery Platform](https://github.com/Klokesh493/aws-event-recovery-platform) | AWS · Terraform | Retry only failed SQS records, preserve idempotent receipts, and verify recovery with a local dead-letter drill. |
-| [Azure ML Endpoint Release Lab](https://github.com/Klokesh493/azure-ml-endpoint-release-lab) | Azure · MLOps | Train and evaluate a classifier, verify its model artifact, and run the Azure ML scoring contract locally. |
-| [Cloud On-call Evidence Agent](https://github.com/Klokesh493/cloud-oncall-evidence-agent) | Cloud · On-call | Combine fresh SLO, CloudWatch, and change evidence into a cited recommendation for the responder. |
-| [Kubernetes Node Drain Planner](https://github.com/Klokesh493/kubernetes-node-drain-planner) | Platform · Kubernetes | Check replica counts, pod disruption budgets, and critical workloads before draining a node. |
-
-## AI agents and evaluation
-
-Each lab uses a local Qwen model to select read-only evidence probes. The repositories include synthetic fixtures, policy tests, and a captured model report.
-
-| Project | What to verify |
+| Project | What you can verify |
 | --- | --- |
-| [SRE Incident Investigation](https://github.com/Klokesh493/llm-sre-incident-investigation-agent) | A measured breach merits a page recommendation. Missing telemetry goes to review. |
-| [Dependency Remediation](https://github.com/Klokesh493/ai-dependency-remediation-agent) | Find a candidate outside affected advisory ranges and check it against the approval limit. |
-| [AI Release Regression](https://github.com/Klokesh493/ai-release-regression-agent) | Hold on a critical regression, unsupported citation, or token budget overrun. |
-| [Support Knowledge](https://github.com/Klokesh493/ai-support-knowledge-agent) | Return an approved excerpt from the right tenant or escalate. |
-| [Model Drift Investigation](https://github.com/Klokesh493/ai-model-drift-investigation-agent) | Evaluate feature shift, label quality, and data freshness together. |
+| [SRE Incident Investigation Agent](https://github.com/Klokesh493/llm-sre-incident-investigation-agent) | Turn synthetic SLO and change evidence into a cited paging recommendation. Route incomplete evidence to an operator for review. [Captured model run](https://github.com/Klokesh493/llm-sre-incident-investigation-agent/blob/main/examples/live-report.json) |
+| [SRE Error Budget Control Plane](https://github.com/Klokesh493/sre-error-budget-control-plane) | Replay SLO burn and test how Alertmanager routes page and ticket alerts and inhibits duplicate notifications. [Routing drill](https://github.com/Klokesh493/sre-error-budget-control-plane/blob/main/docs/RUNBOOK.md#verify-alertmanager-routing) |
+| [Release Evidence Pipeline](https://github.com/Klokesh493/release-evidence-pipeline) | Reproduce an approved release and an incident hold using evidence from four SRE, AWS recovery, Azure ML, and on-call labs. [Release replay](https://github.com/Klokesh493/release-evidence-pipeline#run-the-demo) |
+| [AWS Event Recovery Platform](https://github.com/Klokesh493/aws-event-recovery-platform) | Retry only failed SQS records, preserve idempotent receipts, and exercise the dead-letter recovery path locally. [Recovery drill](https://github.com/Klokesh493/aws-event-recovery-platform#run-the-demo) |
+| [Kubernetes Node Drain Planner](https://github.com/Klokesh493/kubernetes-node-drain-planner) | Check workload replicas, disruption budgets, and critical pods before planning a node drain. [Run the planner](https://github.com/Klokesh493/kubernetes-node-drain-planner#run-the-project) |
+| [Azure ML Endpoint Release Lab](https://github.com/Klokesh493/azure-ml-endpoint-release-lab) | Train a classifier, verify holdout quality and the model artifact, then replay the Azure ML scoring contract locally. [Scoring demo](https://github.com/Klokesh493/azure-ml-endpoint-release-lab#run-the-demo) |
+
+## AI Agent Labs
+
+The labs use a local Qwen model to select read-only evidence probes. Each report records the input evidence and the resulting policy decision on synthetic data.
+
+| Lab | What you can verify |
+| --- | --- |
+| [Dependency Remediation](https://github.com/Klokesh493/ai-dependency-remediation-agent) | Review an advisory and identify a candidate update outside the affected version range. The report records whether it qualifies for testing. [Model report](https://github.com/Klokesh493/ai-dependency-remediation-agent/blob/main/examples/live-report.json) |
+| [AI Release Regression](https://github.com/Klokesh493/ai-release-regression-agent) | Use evaluation evidence to recommend a release decision. Critical regressions, unsupported citations, and token overruns trigger a hold. [Model report](https://github.com/Klokesh493/ai-release-regression-agent/blob/main/examples/live-report.json) |
+| [Model Drift Investigation](https://github.com/Klokesh493/ai-model-drift-investigation-agent) | Investigate drift with feature shift, label quality, and freshness evidence before proposing a follow-up. [Model report](https://github.com/Klokesh493/ai-model-drift-investigation-agent/blob/main/examples/live-report.json) |
+| [Support Knowledge](https://github.com/Klokesh493/ai-support-knowledge-agent) | Return a cited support excerpt from the appropriate tenant or escalate with the reason recorded. [Model report](https://github.com/Klokesh493/ai-support-knowledge-agent/blob/main/examples/live-report.json) |
 
 ## Professional Summary
 
-I build and document tools for operating cloud platforms and ML systems. My projects focus on the decisions engineers make during a rollout, an incident, or planned maintenance: what to measure, when to intervene, and how to make the next action clear.
-
-## Professional Snapshot
-
-- **Site reliability** · Latency and freshness SLOs, incident triage, and failover readiness
-- **Cloud and platform** · Kubernetes disruption controls, streaming operations, and release gates
-- **Secure delivery** · Release checks and backup policy review
-- **MLOps** · Model-serving canaries and streaming data validation
+I focus on the decisions engineers make during incidents and changes. My projects turn SLOs into routing decisions, evaluate rollout and recovery evidence, and give responders a cited next step. The repositories document how to run each demo, test failure cases, and understand the limits of the result.
 
 ## Tech Stack
 
@@ -61,66 +55,36 @@ Tool references for container scanning, secret detection, secrets management, in
 
 ### Streaming, AI, and ML
 
-[![Kafka](https://img.shields.io/badge/Kafka-252B36?style=for-the-badge&logo=apachekafka&logoColor=white)](https://github.com/Klokesh493/kafka-consumer-lag-slo-guard) [![Flink](https://img.shields.io/badge/Flink-A91C59?style=for-the-badge&logo=apacheflink&logoColor=white)](https://flink.apache.org/) [![Python](https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/) [![MLOps](https://img.shields.io/badge/MLOps-623BA5?style=for-the-badge)](https://github.com/Klokesh493/model-serving-canary-analyzer) [![AI Agents](https://img.shields.io/badge/AI_Agents-087F72?style=for-the-badge)](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs)
+[![Kafka](https://img.shields.io/badge/Kafka-252B36?style=for-the-badge&logo=apachekafka&logoColor=white)](https://github.com/Klokesh493/kafka-consumer-lag-slo-guard) [![Flink](https://img.shields.io/badge/Flink-A91C59?style=for-the-badge&logo=apacheflink&logoColor=white)](https://flink.apache.org/) [![Python](https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/) [![MLOps](https://img.shields.io/badge/MLOps-623BA5?style=for-the-badge)](https://github.com/Klokesh493/model-serving-canary-analyzer) [![AI Agents](https://img.shields.io/badge/AI_Agents-087F72?style=for-the-badge)](https://klokesh493.github.io/lokesh-kalluru-portfolio/#labs)
 
 ### Service and Support Domains
 
-[![SaaS](https://img.shields.io/badge/SaaS-126079?style=for-the-badge)](#professional-snapshot)
+[![SaaS](https://img.shields.io/badge/SaaS-126079?style=for-the-badge)](#professional-summary)
 
 SaaS means Software as a Service.
 
-## DevOps and AI Focus
+## More Engineering Work
 
-- **Release safety** · Compare a rollout with its baseline before increasing traffic.
-- **Incident response** · Correlate operational signals and use service objectives to guide triage.
-- **Platform operations** · Plan node maintenance and review recovery controls before they are needed.
+- [Splunk Alert Triage](https://github.com/Klokesh493/splunk-alert-triage) · Deduplicate exported alerts and prioritize on-call review.
+- [Kafka Consumer Lag SLO Guard](https://github.com/Klokesh493/kafka-consumer-lag-slo-guard) · Estimate catch-up time against a freshness objective.
+- [On-call Rotation Lab](https://github.com/Klokesh493/on-call-rotation-lab) · Simulate coverage, acknowledgment deadlines, and escalation.
+- [Multi-Region Failover Planner](https://github.com/Klokesh493/multi-region-failover-planner) · Evaluate target health, capacity, and replication lag.
 
 ## Currently Learning
 
-- Kafka administration: topic settings, consumer groups, and lag diagnosis.
-- On-call operations: shift handoffs, acknowledgment deadlines, and escalation policies.
-- AI agent evaluation: cited runbooks, abstention when evidence is missing, and human approval for operational changes.
-- MLOps: model promotion, canary evaluation, and drift signals.
-
-## More Engineering Projects
-
-| Project | What it demonstrates |
-| --- | --- |
-| [Multi-Region Failover Planner](https://github.com/Klokesh493/multi-region-failover-planner) | Choose a failover region using health, available capacity, and replication lag. |
-| [API Latency SLO Sentinel](https://github.com/Klokesh493/api-latency-slo-sentinel) | Check p95 and p99 API latency against service objectives. |
-| [Splunk Alert Triage](https://github.com/Klokesh493/splunk-alert-triage) | Deduplicate exported alerts and prioritize services for on-call review. |
-| [Kafka Consumer Lag SLO Guard](https://github.com/Klokesh493/kafka-consumer-lag-slo-guard) | Estimate whether Kafka consumer groups can catch up within a freshness SLO. |
-| [On-call Runbook Retriever](https://github.com/Klokesh493/on-call-runbook-retriever) | Suggest a cited runbook for matching incident symptoms and request review for weak or tied matches. |
-
-- [On-call Rotation Lab](https://github.com/Klokesh493/on-call-rotation-lab) simulates shift coverage and escalation deadlines.
-- [Production Release Readiness](https://github.com/Klokesh493/production-release-readiness) checks rollback drills, ownership, and remaining error budget.
-- [Immutable Backup Policy Auditor](https://github.com/Klokesh493/immutable-backup-policy-auditor) reviews backup immutability, retention, and encryption.
-- [Model Serving Canary Analyzer](https://github.com/Klokesh493/model-serving-canary-analyzer) compares baseline and canary signals before expanding model traffic.
-
-## Future Projects
-
-| Project | Planned scope |
-| --- | --- |
-| Kafka Operations Lab | Run a local cluster and diagnose consumer lag and partition skew. |
-| Azure ML Canary Replay | Compare candidate and baseline predictions using a local holdout replay. |
-
-## GitHub Stats
-
-[Contribution activity](https://github.com/Klokesh493#js-contribution-activity) · [All repositories](https://github.com/Klokesh493?tab=repositories)
+- Evaluating agent decisions when telemetry is incomplete, conflicting, or stale.
+- Diagnosing Kafka consumer lag and recovering safely across partitions.
+- Comparing model candidates with reproducible scoring and drift evidence.
 
 ## What I Bring
 
-- I turn reliability questions into concrete checks, from rollout comparisons to backup policy audits.
-- I connect infrastructure, observability, and ML serving so an operator can see what changed and decide what to do next.
-- I document how to reproduce a result and where a lab's assumptions stop applying.
+- **Incident readiness** · On-call coverage, clear escalations, and evidence that a responder can reproduce.
+- **Platform operations** · Kubernetes maintenance checks, release holds, and recovery drills.
+- **AI-assisted workflows** · Cited evidence, escalation paths, and operational decisions reviewable by an engineer.
 
-## Connect with Me
+## Connect
 
-[Portfolio](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations) · [Selected work](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#work) · [Lab roadmap](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#labs) · [Engineering tools](https://klokesh493.github.io/lokesh-kalluru-portfolio/index.html?view=operations#tools)
-
-## Open To
-
-Site Reliability Engineering · DevOps and Cloud Platform Engineering · DevSecOps · MLOps and AI Platform Engineering
+[Portfolio](https://klokesh493.github.io/lokesh-kalluru-portfolio/) · [GitHub activity](https://github.com/Klokesh493#js-contribution-activity) · [All repositories](https://github.com/Klokesh493?tab=repositories)
 
 <details>
 <summary>About this profile repository</summary>
